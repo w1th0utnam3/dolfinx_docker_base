@@ -8,7 +8,6 @@
 # Fabian Löschner <fabian.loeschner@rwth-aachen.de>
 
 FROM ubuntu:18.04
-LABEL maintainer="fenics-project <fenics-support@googlegroups.org>"
 
 WORKDIR /tmp
 
