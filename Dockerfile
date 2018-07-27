@@ -20,6 +20,7 @@ RUN apt-get -qq update && \
     apt-get -y --with-new-pkgs -o Dpkg::Options::="--force-confold" upgrade && \
     apt-get -y install \
     cmake \
+    ninja-build \
     doxygen \
     g++ \
     gfortran \
